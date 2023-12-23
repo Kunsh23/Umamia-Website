@@ -1,0 +1,67 @@
+/*=============== CUISINE BANNER ===============*/
+.upper__banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.lower__banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+  
+.banner {
+    width: auto;
+}
+
+/* For small devices */
+@media screen and (min-width: 340px) {    
+    .banner {
+        width: auto;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .banner {
+        width: 90%;
+        border-radius: 2.5rem;
+    }
+}
+  
+@media screen and (min-width: 767px) {
+    .banner {
+        width: 90%;
+        border-radius: 2.5rem;
+    }
+}   
+  
+@media screen and (min-width: 808px) {
+    .banner {
+        width: 90%;
+        border-radius: 2.5rem;
+    }
+}
+  
+/* For large devices */
+@media screen and (min-width: 1024px) {
+    .banner {
+        width: 85%;
+        border-radius: 2.5rem;
+    }
+}
+  
+@media screen and (min-width: 1064px) {
+    .banner {
+        width: 75%;
+        border-radius: 2.5rem;
+    }
+}
+  
+@media screen and (min-width: 1280px) {
+    .banner {
+        width: 65%;
+        border-radius: 2.5rem;
+    }
+}

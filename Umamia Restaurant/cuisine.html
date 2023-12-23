@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/cuisine.css">
+
+    <!--=============== CDN ===============-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <title>Umamia | 旨味屋</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="assets/img/logo.png" alt="logo image">
+                Umamia | <b>旨味屋</b>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#sushi" class="nav__link">Sushi</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#ramen" class="nav__link">Ramen</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#drink" class="nav__link">Drinks</a>
+                    </li>
+
+                    <li class="nav__item dropdown">
+                        <a href="cart.html" class="nav__link">
+                            <div class="nav__cart" id="nav-cart">
+                                <i class="ri-shopping-cart-line"></i>
+                                <span class="cart__counter" id="cart-counter">0</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="assets/img/leaf-branch-4.png" alt="nav image" class="nav__img-1">
+                <img src="assets/img/leaf-branch-3.png" alt="nav image" class="nav__img-2">
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-apps-2-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <script src="assets/js/cart.js"></script>
+
+    <!--==================== TOP BANNER ====================-->
+    <div class="upper__banner">
+        <img src="assets/img/top__banner.png" alt="sushi banner" class="banner">
+    </div>
+
+    <!--==================== SUSHI ====================-->
+    <section class="popular section" id="sushi">
+        <span class="section__subtitle">Sushi Symphony</span>
+        <p style="text-align: center;">すし交響曲</p>
+        <h2 class="section__title">A Culinary Overture of Exquisite Flavors</h2>
+
+        <div class="sushi">
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/S1.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/S2.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/S3.png" alt="popular image" class="popular__img">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/S4.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/S5.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/S6.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== RAMEN ====================-->
+    <section class="popular section" id="ramen">
+        <span class="section__subtitle">Ramen Rhapsody</span>
+        <p style="text-align: center;">ラーメン狂詩曲</p>
+        <h2 class="section__title">A Melodic Celebration of Savory Bliss</h2>
+
+        <div class="Ramen">
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/R1.png" alt="popular image" class="popular__imagee">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/R2.png" alt="popular image" class="popular__imagee">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/R3.png" alt="popular image" class="popular__imagee">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/R4.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/R5.png" alt="popular image" class="popular__imagee">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/R6.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== DRINKS ====================-->
+    <section class="popular section" id="drink">
+        <span class="section__subtitle">Drink Harmony</span>
+        <p style="text-align: center;">ドリンクハーモニー</p>
+        <h2 class="section__title">A Symphony of Refreshment and Elegance</h2>
+
+        <div class="sushi">
+            <div class="popular__container container grid">
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/D1.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/D6.png" alt="popular image" class="popular__imagdrink2">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/D2.png" alt="popular image" class="popular__imag">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/D3.png" alt="popular image" class="popular__imagsushi">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/D4.png" alt="popular image" class="popular__imagtea">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+
+                <article class="popular__card">
+                    <img src="assets/img/Cuisine/D5.png" alt="popular image" class="popular__imagdrink">
+
+                    <h3 class="popular__name">Ramen</h3>
+                    <span class="popular__description">Japanese Dish</span>
+
+                    <span class="popular__price">$11.99</span>
+
+                    <button class="popular__button">
+                        <i class="ri-shopping-bag-line"></i>
+                    </button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== BOTTOM BANNER ====================-->
+    <div class="lower__banner">
+        <img src="assets/img/bottom__banner2.png" alt="sushi banner" class="banner">
+    </div>
+
+    <!--==================== NEWSLETTER ====================-->
+    <section class="newsletter section">
+        <div class="newsletter__container container">
+            <div class="newsletter__content grid">
+                <img src="assets/img/newsletter-sushi.png" alt="newsletter image" class="newsletter__img">
+
+                <div class="newsletter__data">
+                    <span class="section__subtitle">Newsletter</span>
+                    <p class="japanese__heading">ニュースレター</p>
+                    <h2 class="section__title">
+                        Subscribe For <br>
+                        Offer Updates
+                    </h2>
+
+                    <form action="" class="newsletter__form">
+                        <input type="email" placeholder="Enter email" class="newsletter__input">
+
+                        <button class="button newsletter__button">
+                            Subscribe <i class="ri-send-plane-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <img src="assets/img/spinach-leaf.png" alt="newsletter image" class="newsletter__spinach">
+        </div>
+    </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="logo image">
+                    Umamia | <b>旨味屋</b>
+                </a>
+
+                <p class="footer__description">
+                    Food for the body is not <br>
+                    enough. There must be food <br>
+                    for the soul.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">Main Menu</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Menus</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Offer</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Events</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Information</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Contact</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Order & Returns</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Videos</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="footer__link">Reservation</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__links">
+                        <li class="footer__information">
+                            Av. Hacienda 1234 <br>
+                            Lima 4321, Perú
+                        </li>
+
+                        <li class="footer__information">
+                            9AM - 11PM
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Social Media</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <img src="assets/img/spring-onion.png" alt="footer image" class="footer__onion">
+            <img src="assets/img/spinach-leaf.png" alt="footer image" class="footer__spinach">
+            <img src="assets/img/leaf-branch-4.png" alt="footer image" class="footer__leaf">
+        </div>
+
+        <div class="footer__info container">
+            <div class="footer__card">
+                <img src="assets/img/footer-card-1.png" alt="footer image">
+                <img src="assets/img/footer-card-2.png" alt="footer image">
+                <img src="assets/img/footer-card-3.png" alt="footer image">
+                <img src="assets/img/footer-card-4.png" alt="footer image">
+            </div>
+
+            <span class="footer__copy">
+                Copyright &#169; All rights are reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
