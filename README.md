@@ -14,7 +14,7 @@ Welcome to Umamia, your culinary escape into the world of sushi, ramen, and deli
 
 ## Getting Started 🚀
 
-1. **Visit our Website:** [Umamia.com](https://www.umamia.com)
+1. **Visit our Website:** www.umamia.com
 2. **Explore the Menu:** Dive into our extensive menu, where every dish tells a story of flavor.
 3. **Experience Themes:** Customize your visual ambiance with the theme switcher - a simple click to transform your Umamia experience.
 
